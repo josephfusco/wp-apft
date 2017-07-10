@@ -1,0 +1,21 @@
+{
+  "name": "wp-apft",
+  "description": "WordPress plugin for a United States Army Physical Fitness Test calculator",
+  "author": "Joseph Fusco",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josephfusco/wp-apft"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-watch": "^4.3.5",
+    "pump": "^1.0.2"
+  }
+}

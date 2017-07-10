@@ -1,0 +1,63 @@
+#apft-application {
+	padding: 50px 0 100px;
+	opacity: 0;
+	transition: .3s .2s opacity;
+	html.apft-application-loaded & {
+		opacity: 1;
+	}
+	@media (max-width: $screen-xs-max) {
+		padding: 25px 0 25px;
+	}
+	.btn {
+		text-transform: uppercase;
+		@media (max-width: $screen-xs-max) {
+			margin-bottom: 15px;
+		}
+	}
+	.credit {
+		font-size: 80%;
+		opacity: .7;
+	}
+	input[type="text"],
+	input[type="number"],
+	select {
+		display: block;
+		max-width: 380px;
+		@media (max-width: $screen-xs-max) {
+			max-width: 100%;
+		}
+	}
+	.input-wrap {
+		display: block;
+		margin-bottom: 10px;
+		&.last {
+			margin-bottom: 30px;
+		}
+	}
+	#apft-reset {
+		background-color: #1b1b1b;
+		border-color: #1b1b1b;
+		&:hover, &:focus {
+			background-color: #181818;
+			border-color: #181818;
+		}
+	}
+	label.error {
+		margin-bottom: 0;
+		font-weight: 500;
+		font-size: 12px;
+		color: $red;
+	}
+	.pass {
+		color: $green;
+	}
+	.fail {
+		color: $red;
+	}
+	.hidden {
+		display: none;
+	}
+	form {
+		margin-bottom: 30px;
+	}
+}
